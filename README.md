@@ -11,6 +11,9 @@ jfullscreen can be installed as a [planet](https://github.com/lingtalfi/Observer
 code from taken from there: http://www.sitepoint.com/use-html5-full-screen-api/
 
 
+The jfullscreen code is here: https://github.com/lingtalfi/JFullScreen/blob/master/www/libs/jfullscreen/js/jfullscreen.js
+
+
 
 How to use
 ---------------
