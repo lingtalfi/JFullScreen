@@ -15,8 +15,14 @@ The jfullscreen code is here: https://github.com/lingtalfi/JFullScreen/blob/mast
 
 
 
+
+
 How to use
 ---------------
+
+
+Code pen of the example here: http://codepen.io/lingtalfi/pen/RapNvL 
+
 
 ```html
 <!DOCTYPE html>
@@ -37,15 +43,15 @@ How to use
     
     
     
-    console.log(fs.isFullscreen()); 
+    console.log(fs.isFullscreen()); // false
     var image = document.querySelector('img');
     
     
     image.addEventListener('click', function () {
-        fs.requestFullscreen(image);
+        fs.requestFullscreen(image); 
         
         setTimeout(function () {
-            console.log(fs.isFullscreen()); 
+            console.log(fs.isFullscreen());  // true
             fs.exitFullscreen(); 
         }, 2000);
         
