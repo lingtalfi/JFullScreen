@@ -92,7 +92,11 @@ Code pen of the example here: http://codepen.io/lingtalfi/pen/RapNvL
 
 History Log
 ------------------
-    
+
+- 1.0.1 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.0.0 -- 2016-03-19
 
     - initial commit
